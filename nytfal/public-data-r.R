@@ -83,7 +83,7 @@ jtmal2 <- reshape(jtmal2,
 ggplot(jtmal2, aes(x=Year, y=Scores, colour=Country, group=Country))+geom_line()+ theme_wsj()
 
 #USDA Foods Database####
-USDA <- read.csv("~/Google Drive/05. Other Projects/02. Articles/01. Beef/USDA.csv")
+USDA <- read.csv("~/Google Drive/05. Other Projects/02. Articles/01. Beef/csv/USDA.csv")
 str(USDA)
 summary(USDA$Protein)
 which.max(USDA$Protein)
